@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A Swift class, with Apache License boilerplate.</string>
+	<key>Summary</key>
+	<string>A Swift class, with Apache License boilerplate.</string>
+	<key>SortOrder</key>
+	<string>104</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>fileType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>File Type:</string>
+			<key>Description</key>
+			<string>What kind of Objective-C source to create</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Struct</string>
+			<key>Values</key>
+			<array>
+				<string>Empty</string>
+				<string>Class</string>
+				<string>Struct</string>
+				<string>XCTest Case</string>
+				<string>Empty, Apache License</string>
+				<string>Class, Apache License</string>
+				<string>Struct, Apache License</string>
+				<string>XCTest Case, Apache License</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
