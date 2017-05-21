@@ -28,7 +28,7 @@
 			<key>Name</key>
 			<string>File Type:</string>
 			<key>Description</key>
-			<string>What kind of Objective-C source to create</string>
+			<string>What kind of Swift source to create</string>
 			<key>Type</key>
 			<string>popup</string>
 			<key>Default</key>
